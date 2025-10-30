@@ -6,7 +6,3 @@
   to = "/.netlify/functions/sdt"
   status = 200
 
-[[redirects]]
-  from = "/bienso"
-  to = "/.netlify/functions/bienso"
-  status = 200

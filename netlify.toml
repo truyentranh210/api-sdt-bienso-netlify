@@ -1,0 +1,12 @@
+[build]
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/sdt"
+  to = "/.netlify/functions/sdt"
+  status = 200
+
+[[redirects]]
+  from = "/bienso"
+  to = "/.netlify/functions/bienso"
+  status = 200

@@ -1,8 +1,14 @@
 [build]
   functions = "netlify/functions"
 
+# ✅ Function /sdt
 [[redirects]]
   from = "/sdt"
   to = "/.netlify/functions/sdt"
   status = 200
 
+# ✅ Function /home — hiển thị hướng dẫn API
+[[redirects]]
+  from = "/home"
+  to = "/.netlify/functions/home"
+  status = 200
